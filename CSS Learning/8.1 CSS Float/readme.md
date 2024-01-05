@@ -52,7 +52,7 @@ Consider clearing floats to prevent layout issues, especially when working with 
 
 css
 Copy code
-/* .Example: Clearing floats*/
+/*Example: Clearing floats*/
 .clearfix::after {
   content: "";
   display: table;
