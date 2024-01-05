@@ -1,0 +1,46 @@
+# Using Chatgpt
+
+1. What is HTML Basic Structure?
+--> The Basic HtML structure also known as HTML Boilerplate consist of several tags such as :
+1.`<!DOCTYPE html>`: It describes the version of HTML used in the document.
+2.`<html lang="en"></html>`: It is the root element of an HTML document. The 'lang' attribute indicates the language.
+3.`<head></head>`: Contains meta-information such as character set, viewport setting, and other metadata.
+4.`<meta charset="UTF-8">`: Defines the character set and the use of emojis in an HTML document.
+5.`<title></title>`: It defines the title of your webpage.
+6.`<body></body>`: It contains all the HTML contents of your webpage.
+
+2.How do you link an external CSS stylesheet to an HTML document?
+--> To link an external CSS stylesheet to an HTML document we use `<link>` tag . It contains href attribute in which we define the path to our stylesheet.Our external stylesheet should be ended with .css extension.
+
+3.Explain the difference between classes and IDs in CSS.
+--> Classes can be used in various different HTML Tags , Wheras an ID should be unique and used only once. To use class in CSS we use class attribute and for using ID we use id attribute. To select class in css we use . and then classname and in ID we use # sign and then ID name.
+
+4.What is the CSS Box Model, and what are its components?
+--> The components of CSS box model are : margin , padding and border.
+
+5.How can you change the width and height of an element using CSS?
+--> We can change the height and width of an element using CSS by specifying height:value and width:value in Css. The value can be in pixels or percentages.
+
+6.Provide examples of different CSS selectors and explain how they work.
+--> Different Css selectors :
+1 - Tag selector : We can directly select an HTML Tag
+h1 {
+    color : blue;
+}
+2 - Class selector - We can select class attribute by a dot sign and then classname
+.container{
+    background-color: red;
+}
+3 - ID selector - We can select ID attribute by a pound sign and then ID name.
+id.container{
+     background-color: green;
+}
+4. Pseudo Selector - We can select nth-child , or nth-last child or nth-of-type using pseudo class.
+ul li:nth-child(3){
+   color: orange;
+}
+7. What is Flexbox, and how can it be used for layout design?
+--> Flexbox is a CSS property and it can be used for designing layout which can easily become responsive.Using flexbox we can decide the width of the content.
+
+8.Explain the difference between justify-content and align-items in Flexbox.
+--> justify-content make the items vertically centered on the webpage and the align-items make the items hotizontally centered on the webpage.
