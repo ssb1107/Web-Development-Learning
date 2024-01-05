@@ -3,7 +3,7 @@
 [![GitHub Streak](https://streak-stats.demolab.com?user=ssb1107&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
  🚀 Web Dev Learning Journey Repository  Embark on my web dev saga! Explore evolving projects, tech stack, and coding chronicles. Dive into the dynamic world of web development with ongoing updates. Let's build something amazing! 🌐👨‍💻
-This repository is a living documentation of my web development journey, capturing every step of the learning process. From HTML and CSS to advanced JavaScript, frameworks, and beyond, witness the evolution of my skills as I navigate the world of web development.
+This repository is a living documentation of my web development journey, capturing every step of the learning process. From HTML and CSS to advanced JavaScript, frameworks, and beyond, witness th e evolution of my skills as I navigate the world of web development.
 
 📚 Learning Path:
 Embark on a step-by-step adventure through the realms of front-end and back-end technologies. Follow along as I tackle fundamental concepts, explore cutting-edge frameworks, and build real-world projects that showcase my growing proficiency in web development.
