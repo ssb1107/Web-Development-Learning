@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: red;
+    background-color: bisque;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid green;
+    padding: 10px;
+    /* background-image: url(https://th.bing.com/th/id/OIP.El_G5jfXDdLg-r6ZOb7l6AHaEo?rs=1&pid=ImgDetMain); */
+    /* background: linear-gradient(90deg , pink 40% ,red 40% , coral 20%);
+     */
+     /* background: radial-gradient(pink,red,yellow); */
+     background: conic-gradient(red,yellow);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+p{
+    margin-top: 20px;
+    padding: 30px;
+    /* color: rgb(25,147,54); */
+    /* background-color: rgba(215, 174, 55, 0.5); */
+    background-color: hsl(0,35%,40%);
+}
