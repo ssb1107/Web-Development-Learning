@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto , Arial , sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 15px;
+    background-color: black;
+}
+.left-nav{
+    display: flex;
+    gap: 20px;
+}
+.left-nav img:nth-child(2){
+   width: 90px;
+}
+.centre-nav{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+}
+.centre-nav input{
+    border: none;
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+    width: 50%;
+    padding: 5px 15px;
+    font-size: 17px;
+    background-color: black;
+    border: 1px solid #303030;
+}
+.centre-nav img:nth-child(2){
+    padding: 3px 10px ;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #303030;
+}
+.centre-nav img:nth-child(3){
+    margin-left: 10px;
+}
+.right-nav{
+    display: flex;
+    gap: 20px;
+}
+.right-nav img:nth-child(3){
+    width: 30px;
+    border-radius: 50%;
+}
+.yt-premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    gap: 50px;
+}
+.yt-desc h2{
+
+    text-align: center;
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 40px;
+    color: gray;
+}
+.yt-premium-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:25px
+}
+.yt-premium-details button {
+    padding: 0px 5px;
+    border-radius: 18px;
+    width: 39%;
+    background-color: #065FD4;
+    color: white;
+    border: none;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 14px;
+    height: 36px;
+}
+.yt-premium-details p:nth-child(2){
+    font-size: 25px;
+    font-weight: lighter;
+    color: gray;
+}
+.yt-premium-details span a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #065fd4;
+}
+.yt-premium-details a{
+    text-decoration: none;
+    color: #0000ee;
+    font-size: 14px;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 40%;
+    text-align: center;
+    gap: 10px;
+}
+
+.first , .second , .third{
+    width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
+.content p{
+    color: rgba(226,226,226,0.711);
+}
+
