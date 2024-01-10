@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -66,10 +67,9 @@
     gap: 50px;
 }
 .yt-desc h2{
-
     text-align: center;
     font-size: 32px;
-    font-weight: lighter;
+    font-weight: 600;
     line-height: 40px;
     color: gray;
 }
@@ -114,7 +114,7 @@
     justify-content: center;
     background-color: black;
     color: white;
-    height: 40%;
+    height: 50%;
     text-align: center;
     gap: 10px;
 }
@@ -131,4 +131,125 @@
 .content p{
     color: rgba(226,226,226,0.711);
 }
+.background-img{
+    height: 100%;
+}
+.bg-1{
+    background-image: url(./images/bg1.jpeg);
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+}
+.bg-heading {
+    font-size: 3.5em;
+    font-weight: lighter;
+    color: white;
+}
+.bg-para{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: rgba(255, 255 , 255 , 0.554); 
+}
+.bg-1 > div{
+    padding-top: 130px;
+    padding-left: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.bg-2 > div{
+    padding-top: 160px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
+.bg-2{
+    background-image: url(./images/bg2.jpeg);
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+}
+.bg-3{
+    background-image: url(./images/bg3.jpeg);
+    /* width: 100%; */
+    height: 60%;
+    background-size: cover;
+}
+.bg-4{
+    background-image: url(./images/bg4.jpeg);
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+}
+.bg-3 > div{
+    padding-top: 130px;
+    padding-left: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.bg-4 > div{
+    padding-top: 160px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.faqs{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: black;
+    color: white;
+}
+.help-centre{
+    margin-right: 355px;
+    margin-bottom: 30px;
+}
+.faq-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+hr{
+    opacity: 0.2;
+}
+.all-faq{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.faq{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.faq i{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 368px;
+}
+.faq-details p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.faq p{
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.help-centre p{
+    font-size: 18px;
+}
+.help-centre a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #0000ee;
+}
