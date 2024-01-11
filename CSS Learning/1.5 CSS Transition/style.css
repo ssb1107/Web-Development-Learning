@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    perspective: 200px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: palegreen;
+    /* transform: translate(50%,50%); */
+    /* transform: rotate(150deg); */
+    /* transform: skew(125deg);
+     */
+     transform: perspective(200px) ;
+}
