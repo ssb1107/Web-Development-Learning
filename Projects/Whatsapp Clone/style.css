@@ -39,6 +39,31 @@
   border-radius: 60px;
   background-color: #25d366;
   border: 1px solid black;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.btn::before , .navbar > button::before{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    opacity: 0;
+    background-color: #fff;
+    transition: 1s;   
+}
+.navbar > button::before{
+    background-color: black;
+    z-index: -1;
+}
+.btn:hover::before , .navbar > button:hover::before{
+    opacity: 1;
+}
+.btn:hover , .navbar > button:hover{
+    cursor: pointer;
 }
 .feature {
   cursor: pointer;
@@ -390,6 +415,7 @@ footer{
    align-items: center;
    gap: 24px;
 }
+
 .circle{
     display: flex;
     justify-content: center;
@@ -431,4 +457,14 @@ footer{
     overflow: hidden;
     line-height: 16.08px;
     margin-bottom: 16px;
+}
+.footer > div:nth-child(2) > p:hover , .footer > div:nth-child(3) > p:hover , .footer > div:nth-child(4) > p:hover , .footer > div:nth-child(5) > p:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+.footer > div:nth-child(2) > p:nth-child(1):hover , .footer > div:nth-child(3) > p:nth-child(1):hover , .footer > div:nth-child(4):hover > p:nth-child(1) , .footer > div:nth-child(5) > p:nth-child(1):hover {
+    text-decoration: none;
+    cursor: none;
+    color: none;
 }
