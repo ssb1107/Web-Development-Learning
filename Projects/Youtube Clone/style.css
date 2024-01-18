@@ -54,7 +54,7 @@
     display: flex;
     gap: 20px;
 }
-.right-nav img:nth-child(3){
+.right-nav img:nth-child(4){
     width: 30px;
     border-radius: 50%;
 }
@@ -252,4 +252,102 @@ hr{
     font-size: 18px;
     text-decoration: none;
     color: #0000ee;
+}
+@media screen and (min-width: 320px) and (max-width:480px){
+    .centre-nav{
+        display: none;
+    }
+    .right-nav > img:nth-child(3){
+        display: none;
+    }
+    .yt-premium{
+        height: 100%;
+        color: black;
+        gap: 20px;
+    }
+    .yt-premium-logo > img{
+        padding-top: 50px;
+        width: 100%;
+    }
+        .features {
+            flex-direction: column;
+            justify-content: start;
+            height: 100%;
+            gap: 20px;
+            padding-top: 40px;
+            padding-bottom: 50px;
+        }
+    .first , .second , .third{
+        width: 100%;
+    }
+    .bg-1  > div , .bg-2 > div , .bg-3 > div , .bg-4 > div{
+        padding-top: 120px;
+        padding-left: 30px;
+    }
+    .bg-4 {
+        height: 70%;
+    }
+    .faq i {
+        margin-top: 17px; 
+        margin-bottom: 0px;
+       margin-left: 0px
+    }
+    .faq-details{
+    padding-top: 100px;
+    }
+    .help-centre{
+        margin-right: 0px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .centre-nav{
+        display: none;
+    }
+    .right-nav > img:nth-child(3){
+        display: none;
+    }
+    .yt-premium{
+        height: 100%;
+        color: black;
+        gap: 20px;
+    }
+    .yt-premium-logo > img{
+        padding-top: 50px;
+        width: 100%;
+    }
+        .features {
+            flex-direction: column;
+            justify-content: start;
+            height: 100%;
+            gap: 20px;
+            padding-top: 40px;
+            padding-bottom: 50px;
+        }
+    .first , .second , .third{
+        width: 100%;
+    }
+    .bg-1  > div , .bg-2 > div , .bg-3 > div , .bg-4 > div{
+        padding-top: 120px;
+        padding-left: 30px;
+    }
+    .bg-4 {
+        height: 70%;
+    }
+    .faq i {
+        margin-top: 17px; 
+        margin-bottom: 0px;
+       margin-left: 0px
+    }
+    .faq-details{
+    padding-top: 100px;
+    }
+    .help-centre{
+        margin-right: 0px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:1024px){
+    
+}
+@media screen and (min-width: 1025px) and (max-width:1200px){
+    
 }
