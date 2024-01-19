@@ -67,11 +67,13 @@
     gap: 50px;
 }
 .yt-desc h2{
+    width: 60%;
+    margin: auto;
     text-align: center;
     font-size: 32px;
     font-weight: 600;
     line-height: 40px;
-    color: gray;
+    /* color: gray; */
 }
 .yt-premium-details{
     display: flex;
@@ -84,7 +86,7 @@
 .yt-premium-details button {
     padding: 0px 5px;
     border-radius: 18px;
-    width: 39%;
+    width: 18%;
     background-color: #065FD4;
     color: white;
     border: none;
@@ -96,7 +98,10 @@
 .yt-premium-details p:nth-child(2){
     font-size: 25px;
     font-weight: lighter;
-    color: gray;
+    /* color: gray; */
+    width: 54%;
+    margin: auto;
+    text-align: center;
 }
 .yt-premium-details span a{
     font-size: 14px;
@@ -157,6 +162,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+
 }
 .bg-2 > div{
     padding-top: 160px;
@@ -253,7 +259,7 @@ hr{
     text-decoration: none;
     color: #0000ee;
 }
-@media screen and (min-width: 320px) and (max-width:480px){
+@media screen  and (max-width:480px){
     .centre-nav{
         display: none;
     }
@@ -261,39 +267,57 @@ hr{
         display: none;
     }
     .yt-premium{
-        height: 100%;
+        height: 80%;
         color: black;
         gap: 20px;
     }
+    .yt-premium-details button {
+        width: 50%;
+    }
+    .yt-desc > h2{
+        width: 100%;
+        font-size: 32px;
+    }
     .yt-premium-logo > img{
-        padding-top: 50px;
         width: 100%;
     }
-        .features {
+    .yt-premium-details p:nth-child(2) {
+      width: 80%;
+      font-size: 24px;
+      font-weight: bold;
+}      
+    .features {
             flex-direction: column;
             justify-content: start;
-            height: 100%;
+            height: 110%;
             gap: 20px;
-            padding-top: 40px;
-            padding-bottom: 50px;
-        }
+            padding-top: 20px;
+            padding-bottom: 20px;
+     }
     .first , .second , .third{
         width: 100%;
     }
     .bg-1  > div , .bg-2 > div , .bg-3 > div , .bg-4 > div{
-        padding-top: 120px;
+        padding-top: 160px;
         padding-left: 30px;
     }
-    .bg-4 {
+    .bg-4  , .bg-1 , .bg-2 , .bg-3{
         height: 70%;
+    }
+    .faq-details{
+        width: 80%;
+    }
+    .faqs{
+        height: 80%;
+        gap: 30px;
+    }
+    .help-centre{
+        width: 80%;
     }
     .faq i {
         margin-top: 17px; 
         margin-bottom: 0px;
        margin-left: 0px
-    }
-    .faq-details{
-    padding-top: 100px;
     }
     .help-centre{
         margin-right: 0px;
@@ -307,7 +331,7 @@ hr{
         display: none;
     }
     .yt-premium{
-        height: 100%;
+        height: 80%;
         color: black;
         gap: 20px;
     }
@@ -315,14 +339,17 @@ hr{
         padding-top: 50px;
         width: 100%;
     }
-        .features {
+    .yt-premium-details p:nth-child(2) {
+        width: 80%;
+    }
+    .features {
             flex-direction: column;
             justify-content: start;
-            height: 100%;
+            height: 110%;
             gap: 20px;
             padding-top: 40px;
             padding-bottom: 50px;
-        }
+    }
     .first , .second , .third{
         width: 100%;
     }
@@ -339,15 +366,102 @@ hr{
        margin-left: 0px
     }
     .faq-details{
-    padding-top: 100px;
+        width: 85%;
     }
     .help-centre{
         margin-right: 0px;
+        width: 85%;
     }
 }
-@media screen and (min-width: 769px) and (max-width:1024px){
-    
+@media screen and (min-width: 769px) and (max-width:1024px){ 
+    .right-nav > img:nth-child(3){
+        display: none;
+    }
+    .yt-premium{
+        height: 80%;
+        color: black;
+        gap: 20px;
+    }
+    .yt-premium-logo > img{
+        padding-top: 50px;
+        width: 100%;
+    }
+    .yt-premium-details p:nth-child(2) {
+        width: 80%;
+    }
+    .features {
+            flex-direction: column;
+            justify-content: start;
+            height: 110%;
+            gap: 20px;
+            padding-top: 40px;
+            padding-bottom: 50px;
+    }
+    .first , .second , .third{
+        width: 100%;
+    }
+    .bg-1  > div , .bg-2 > div , .bg-3 > div , .bg-4 > div{
+        padding-top: 120px;
+        padding-left: 30px;
+    }
+    .bg-4 {
+        height: 70%;
+        background-position: center;
+    }
+    .faq i {
+        margin-top: 17px; 
+        margin-bottom: 0px;
+       margin-left: 0px
+    }
+    .faq-details{
+        width: 85%;
+    }
+    .help-centre{
+        margin-right: 0px;
+        width: 85%;
+    }
 }
 @media screen and (min-width: 1025px) and (max-width:1200px){
-    
+    .yt-premium{
+        height: 80%;
+        color: black;
+        gap: 20px;
+    }
+    .yt-premium-logo > img{
+        padding-top: 50px;
+        width: 100%;
+    }
+    .yt-premium-details p:nth-child(2) {
+        width: 80%;
+    }
+
+    .first , .second , .third{
+        width: 100%;
+    }
+     .bg-1 > div , .bg-3 > div{
+        padding-left: 550px;
+     }
+     .bg-2 > div , .bg-4 > div{
+        width: 60%;
+        padding-left: 30px;
+     }
+    .bg-4 {
+        height: 70%;
+        background-position: center;
+    }
+    .bg-para {
+        width: 100%;
+    }
+    .faq i {
+        margin-top: 17px; 
+        margin-bottom: 0px;
+       margin-left: 0px
+    }
+    .faq-details{
+        width: 85%;
+    }
+    .help-centre{
+        margin-right: 0px;
+        width: 85%;
+    }
 }
