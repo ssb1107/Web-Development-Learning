@@ -11,7 +11,7 @@
 
 <body>
   <div class="w-screen h-screen overflow-x-hidden">
-    <nav class="w-[100%] h-24 flex justify-center shadow-lg sticky top-0 bg-white ">
+    <nav class="w-[100%] h-24 flex justify-center shadow-lg sticky top-0 bg-white z-30 ">
       <div class="flex justify-between items-center min-w-[80%]">
         <img src="./Images/asset 0.svg" alt="" class="cursor-pointer" />
         <p class="text-lg font-semibold hover:bg-slate-100 px-2 py-2 cursor-pointer rounded-sm">
@@ -213,7 +213,7 @@
               </div>
               <div>
                 <button
-                  class=" bg-black text-white  rounded-3xl flex items-center justify-center w-[250px] gap-3 px-5 py-2 hover:text-black hover:bg-white hover:border hover:border-black">
+                  class=" bg-black z-[1] text-white  rounded-3xl flex items-center justify-center w-[250px] gap-3 px-5 py-2 hover:text-black hover:bg-white hover:border hover:border-black">
                   <p>Download Paytm App </p>
                   <i class="fa-brands fa-apple"></i>
                   <i class="fa-brands fa-google-play"></i>
@@ -240,19 +240,20 @@
               </div>
               <div>
                 <button
-                  class=" bg-dark-blue text-white  rounded-3xl flex items-center justify-center w-[150px] gap-3 px-5 py-3 hover:text-black hover:bg-white hover:border hover:border-black">
+                  class="relative group bg-dark-blue text-white  rounded-3xl flex items-center justify-center w-[150px] gap-3 px-5 py-3 hover:bg-blue">
                   <p class="font-medium">Learn More </p>
-                  <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+                  <i class="fa-solid fa-angle-right group-hover:translate-x-1 transition-all duration-150" style="color: #ffffff;"></i>
+                  <div class="after:content-[''] bg-white w-2 h-[2px]  absolute translate-x-12 scale-x-0 group-hover:scale-x-[1] transition-all duration-150 "></div>
                 </button>
               </div>
             </div>
             <div>
-              <img class="w-[450px]" src="./Images/asset 23.webp " alt="">
+              <img class="w-[500px]" src="./Images/asset 23.webp " alt="">
             </div>
           </div>
 
           <!-- 4th Card -->
-          <div class="flex  h-[650px] gap-[2%] mb-32">
+          <div class="flex  h-[650px] gap-[2%] mb-28">
             <div class="w-[50%] bg-white h-[650px] flex flex-col justify-center gap-7 pl-20 rounded-lg">
               <div>
                 <img src="./Images/asset 24.png" alt="" class="w-44">
@@ -265,7 +266,7 @@
                   Cashback and incredible offers.</p>
               </div>
               <div>
-                <img src="./Images/asset 25.webp" alt="" class="w-[450px]">
+                <img src="./Images/asset 25.webp" alt="" class="w-[470px]">
               </div>
             </div>
             <div class="w-[50%] bg-white h-[650px] flex flex-col justify-center gap-7 pl-20 rounded-lg">
@@ -280,17 +281,82 @@
                   Rewards that Never Expire</p>
               </div>
               <div>
-                <img src="./Images/asset 27.webp" alt="" class="w-[450px]">
+                <img src="./Images/asset 27.webp" alt="" class="w-[470px]">
               </div>
             </div>
-
+        
           </div>
         </div>
       </div>
     </section>
-
-    <section>
-      
+    <!-- 5th card  -->
+    <section class="w-full min-h-[700px] bg-white flex justify-center items-center mb-0">
+       <div class="w-[80%]">
+        <div class=" flex flex-col gap-8 mt-64 w-full">
+          <div>
+            <p class="text-5xl font-bold">Financial Services by Paytm</p>
+          </div>
+          <div class="flex justify-between items-start bg-white  mt-12 mb-28">
+            <div class="flex flex-col gap-16">
+              <div class="flex items-center justify-start">
+                <img src="./Images/asset 28.png" alt="" class="w-52">
+          
+              </div>
+              <div>
+                <p class="w-[28rem] font-bold text-5xl">India's most sincere bank.</p>
+              </div>
+              <div>
+                <p class="font-semibold text-xl w-[32rem]">Paytm Payments Bank offers secure, transparent and risk-free banking at your fingertips. With instant account opening, virtual debit card and zero balance requirements, experience the future of banking today.</p>
+              </div>
+              <div>
+                <button
+                class="relative group bg-dark-blue text-white  rounded-3xl flex items-center justify-center w-[150px] gap-3 px-5 py-3 hover:bg-blue">
+                <p class="font-medium">Learn More </p>
+                <i class="fa-solid fa-angle-right group-hover:translate-x-1 transition-all duration-150" style="color: #ffffff;"></i>
+                <div class="after:content-[''] bg-white w-2 h-[2px]  absolute translate-x-12 scale-x-0 group-hover:scale-x-[1] transition-all duration-150 "></div>
+              </button>
+              </div>
+            </div>
+            <div>
+              <img class="w-[450px]" src="./Images/asset 29.webp" alt="">
+            </div>
+          </div>
+       </div>
+       </div>      
+    </section>
+    <!-- 6th card  -->
+    <section class="w-full h-[630px] bg-[#f5f7fa] flex justify-center items-center">
+        <!-- <img src="./Images/asset 32.avif" alt="" class="absolute h-[630px] w-full -z-2"> -->
+        <div class="w-[80%]">
+          <div class=" flex flex-col gap-8 mt-40 w-full">
+            <div class="flex justify-between items-start mt-0 mb-28">
+              
+              <div>
+                <img class="w-[500px]" src="./Images/asset 31.webp" alt="">
+              </div>
+              <div class="flex flex-col gap-12">
+                <div class="flex items-center justify-start">
+                  <img src="./Images/asset 30.webp" alt="" class="w-48">
+            
+                </div>
+                <div>
+                  <p class="w-[28rem] font-bold text-5xl">Build Long-term Wealth & Achieve your Goals.</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-xl w-[32rem]">Investing on Paytm Money is transparent, low-cost and commission-free. Buy stocks & mutual funds that can help you create wealth & realise your dreams.</p>
+                </div>
+                <div>
+                  <button
+                  class="relative group bg-dark-blue text-white  rounded-3xl flex items-center justify-center w-[150px] gap-3 px-5 py-3 hover:bg-blue">
+                  <p class="font-medium">Learn More </p>
+                  <i class="fa-solid fa-angle-right group-hover:translate-x-1 transition-all duration-150" style="color: #ffffff;"></i>
+                  <div class="after:content-[''] bg-white w-2 h-[2px]  absolute translate-x-12 scale-x-0 group-hover:scale-x-[1] transition-all duration-150 "></div>
+                </button>
+                </div>
+              </div>
+            </div>
+         </div>
+         </div>      
     </section>
   </div>
 </body>
