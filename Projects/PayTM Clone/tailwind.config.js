@@ -11,7 +11,8 @@ module.exports = {
         "hover-2-color" : "#0f4a8a",
         "background-section" : "#f5f7fa",
         "light-blue" : "#4ccff6",
-        "text-color" : "#9DE3FB"
+        "text-color" : "#9DE3FB",
+        "line-color" : "#DBDCDD"
      },
     },
   },
