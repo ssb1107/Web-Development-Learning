@@ -1,0 +1,12 @@
+let date = new Date();
+console.log(date);
+console.log(date.toString());
+console.log(date.toDateString());
+console.log(date.toISOString());
+console.log(date.toLocaleDateString());
+console.log(date.toLocaleTimeString());
+console.log(typeof date);
+console.log(Date.now());
+console.log(Math.floor(Date.now() / 1000)); 
+console.log(date.getHours());
+console.log(date.getDay());
