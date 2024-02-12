@@ -1,0 +1,16 @@
+const array = ["Panipuri" , "Noodles" , "Pasta" , "Manchurian"];
+const nums = [1,2,3,4,5];
+console.log(array[0]);
+console.log(array.length);
+console.log(array.push(5));
+console.log(array);
+console.log(array.pop());
+console.log(array);
+console.log(array.unshift(3));
+console.log(array);
+console.log(array.includes("Pasta"));
+console.log(array.indexOf("Noodles"));
+console.log(array.join());
+console.log(array.slice(0,3));
+console.log(array.splice(0,1));
+console.log(array);
