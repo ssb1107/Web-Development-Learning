@@ -14,6 +14,12 @@ module.exports = {
         "text-color" : "#9DE3FB",
         "line-color" : "#DBDCDD"
      },
+     screens:{
+      'verysmall' : {'max':"399px"},
+      'small' : '400px',
+      'medium' : "768px",
+      'large' : {'min' : "1070px"}
+     }
     },
   },
   plugins: [],
