@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+}
+button{
+    background-color: antiquewhite;
+    color: lightcoral;
+    border: 3px solid orangered;
+    padding: 20px;
+    font-size: medium;
+    transition: all 0.1s;
+}
+button:hover{
+    transform: translateY(-10px) scale(1.1);
+    background-color: transparent;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
