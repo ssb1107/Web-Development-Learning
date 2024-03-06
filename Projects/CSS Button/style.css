@@ -23,4 +23,5 @@ button:hover{
     background-color: transparent;
     cursor: pointer;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0px 30px 15px rgba(233, 6, 165, 0.5);
 }
